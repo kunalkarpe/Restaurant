@@ -4,7 +4,7 @@ import CustomerRoutes from "./CustomerRoutes/CustomerRoutes"
 
 
 const loggedUserRole = "admin"
-const routes = loggedUserRole === "admin" ? AdminRoutes : CustomerRoutes
+const routes = loggedUserRole !== "admin" ? AdminRoutes : CustomerRoutes
 const globalRoutes = createBrowserRouter([
     {
         path: "/",
