@@ -22,7 +22,7 @@ const Navbar = () => {
     },
   ]
   return (
-    <div className="flex justify-between  h-16 items-center px-4   bg-primary/10">
+    <div className="flex justify-between  h-14 items-center px-4   bg-primary/10">
       <div className="flex gap-2">
 
         <span className="rounded-full p-0.5 ring-1 ring-primary">
