@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@theme static {
+
+    --color-primary: var(--color-red-500);
+    --color-secondary: var(--color-blue-500);
+    --color-tertiary: var(--color-green-500);
+    --color-gray:oklch(86.9% 0.022 252.894)
+}
