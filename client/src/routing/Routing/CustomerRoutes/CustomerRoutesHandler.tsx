@@ -4,7 +4,7 @@ import CustomerPages from './CustomerPages'
 const CustomerRouteshandler = ({ routes }: { routes: string }) => {
     console.log(routes)
     return (
-        <div className="w-screen h-screen border ">
+        <div className="w-screen h-screen relative">
             <Navbar />
             <CustomerPages tab={routes} />
 
